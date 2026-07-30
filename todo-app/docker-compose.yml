@@ -19,7 +19,6 @@ services:
         dockerfile: Dockerfile
 
       volumes:
-        - ./todo-backend/:/usr/src/app
          - backend_node_modules:/usr/src/app/node_modules
       environment: 
         - REDIS_URL=redis://redis:6379
