@@ -1,0 +1,15 @@
+PUT http://localhost:3000/todos/6a42af7b36818d8ca6d1a7bb HTTP/1.1
+content-type: application/json
+
+{
+    "done": true,
+    "text":"I command you to change your text"
+}
+###
+POST http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "done": true,
+    "text":"Test Post"
+}
